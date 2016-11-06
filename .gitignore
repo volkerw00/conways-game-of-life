@@ -1,0 +1,10 @@
+# IntelliJ
+.idea/*
+!.idea/codeStyleSettings.xml
+*.iml
+*.ipr
+*.iws
+
+# Gradle
+.gradle
+build
