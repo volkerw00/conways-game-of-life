@@ -45,7 +45,7 @@ class World
 
     static boolean nextCellState(boolean cell, int neighbors)
     {
-        return neighbors == 3 || (cell && (neighbors >= 2 && neighbors < 4));
+        return neighbors == 3 || (cell && (neighbors == 2));
     }
 
     static int countNeighbors(int posX, int posY, boolean[][] field)
