@@ -4,7 +4,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'org.junit.platform:junit-platform-gradle-plugin:1.0.0-M3'
+        classpath 'org.junit.platform:junit-platform-gradle-plugin:1.0.0-M4'
     }
 }
 
@@ -17,7 +17,7 @@ repositories {
 }
 
 dependencies {
-    testCompile 'org.junit.jupiter:junit-jupiter-api:5.0.0-M3'
-    testRuntime 'org.junit.jupiter:junit-jupiter-engine:5.0.0-M3'
+    testCompile 'org.junit.jupiter:junit-jupiter-api:5.0.0-M4'
+    testRuntime 'org.junit.jupiter:junit-jupiter-engine:5.0.0-M4'
     testCompile 'org.hamcrest:hamcrest-core:1.3'
 }
